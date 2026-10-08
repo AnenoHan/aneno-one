@@ -1,0 +1,34 @@
+schema_version = "1.0.0"
+id = "aneno_one"
+version = "0.1.0"
+name = "Aneno One"
+tagline = "Quality-of-life tools for Blender"
+maintainer = "Aneno"
+type = "add-on"
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths = [
+  "__init__.py",
+  "core/__init__.py",
+  "core/metadata.py",
+  "core/preferences.py",
+  "core/registration.py",
+  "core/redraw.py",
+  "core/keymap.py",
+  "core/keymap_operators.py",
+  "features/__init__.py",
+  "features/language_switch/__init__.py",
+  "features/language_switch/rules.py",
+  "features/language_switch/service.py",
+  "features/language_switch/operators.py",
+  "ui/__init__.py",
+  "ui/topbar.py",
+  "ui/language.py",
+  "ui/sidebar.py",
+  "ui/keymap.py",
+  "translations/__init__.py",
+  "translations/zh_hans.py",
+  "LICENSE",
+]
